@@ -1,0 +1,8 @@
+create database ajay;
+show databases;
+use ajay;
+create table details(name varchar(50),age int,roll_no varchar(10),years bigint,email varchar(25),mobile_no bigint,cgpa bigint);
+describe details;
+insert details values("selva",22,"15bmc028",2018,"selva@gmail.com",9876543121,7);
+insert details values("sel",22,"15bmc029",2018,"se3va@gmail.com",9876543301,8);
+select * from details where name='selva' and cgpa=7;
